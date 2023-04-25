@@ -1,0 +1,124 @@
+/* Define as cores usadas no site */
+:root {
+  --azul: #2b80ff;
+  --verde: #00c853;
+  --amarelo: #ffd600;
+  --preto: #212121;
+  --branco: #f11212;
+  }
+  
+  /* Estiliza o corpo da página /
+  body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: var(--preto); / define a cor do texto padrão */
+  }
+  
+  /* Estiliza o cabeçalho /
+  header {
+  background-color: var(--preto);
+  color: var(--branco); / define a cor do texto do cabeçalho */
+  padding: 20px;
+  }
+  
+  header h1 {
+  margin: 0;
+  }
+  
+  header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  }
+  
+  header nav a {
+  color: var(--branco);
+  text-decoration: none;
+  margin-left: 20px;
+  border-radius: 20px;
+  padding: 10px 20px;
+  transition: background-color 0.2s ease;
+  }
+  
+  header nav a:hover {
+  background-color: var(--verde);
+  }
+  
+  /* Estiliza as seções /
+  section {
+  padding: 50px;
+  border-radius: 30px;
+  margin: 20px;
+  color: var(--branco); / define a cor do texto das seções */
+  }
+  
+  #sports {
+  background-color: var(--azul);
+  }
+  
+  #economy {
+  background-color: var(--verde);
+  }
+  
+  #technology {
+  background-color: var(--amarelo);
+  }
+  
+  #entertainment {
+  background-color: var(--preto);
+  }
+  
+  /* Estiliza os artigos */
+  .articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  }
+  
+  .articles article {
+  background-color: var(--branco); /* define a cor de fundo dos artigos */
+  border-radius: 20px;
+  margin-bottom: 20px;
+  width: 30%;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  }
+  
+  .articles article img {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+  }
+  
+  .articles article header {
+  background-color: var(--preto);
+  padding: 10px 20px;
+  }
+  
+  .articles article header time {
+  color: var(--branco); /* define a cor do texto do cabeçalho dos artigos */
+  font-size: 12px;
+  }
+  
+  .articles article h3 {
+  margin: 10px;
+  }
+  
+  .articles article p {
+  margin: 10px;
+  }
+  
+  .articles article a {
+  display: block;
+  background-color: var(--verde);
+  color: var(--branco); /* define a cor do texto dos links dos artigos */
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+  }
+  
+  .articles article a:hover {
+  background-color: var(--amarelo);
+  }
